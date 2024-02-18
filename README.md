@@ -2,7 +2,7 @@
  se19+id19
 
 
-I want to be able to play a popular dice game with my friends by the end of this module.
+I want to be able to play a popular dice game with my friends by the end of these modules.
 That's basically all there is to it, but I'll put the whole online session thing as a bonus, it's pretty scary as a complete beginner.
 
 MVP would be a good looking site with basic interactable dices.
@@ -11,7 +11,7 @@ For responsive web design I'd have to go for a mobile first approach, and use gr
 
 Goals:
 1. **Build a static site with HTML and responsive CSS** (weeks 1 + 2)
-    - A landing page (examples for inspiration: [blinkist](https://www.blinkist.com/), [basecamp](https://basecamp.com/))
+    - A landing page
     - Other static pages like an “about” page or a “legal” page.
 2. **Create a web backend with dynamic routing** (weeks 2 + 3)
     - The barebone structure of a backend application with a framework
