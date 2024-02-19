@@ -31,3 +31,13 @@ Goals:
 5. **Polish for clean code and best practices** (week 8)
     - Unit tests to make the code more robust
     - Refactoring of the code base to make the code more maintainable
+
+
+
+notes for ID19:
+design process starting out with a orange-pinkish color-theme, because of the emotions and actions accredited to them.
+Trying the mobile first approach to dull down what's really needed on the eventual website.
+#F7B5BA cherry blossom pink
+#F6A5A1 melon
+#30362F black olive
+#EBF5DF honeydew
