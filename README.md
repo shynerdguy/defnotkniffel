@@ -41,3 +41,5 @@ Trying the mobile first approach to dull down what's really needed on the eventu
 #F6A5A1 melon
 #30362F black olive
 #EBF5DF honeydew
+
+lato as potential font
