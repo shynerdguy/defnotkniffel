@@ -10,9 +10,9 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    grid-template-rows: auto auto; /* 2 rows */
-    gap: 20px; /* Adjust the gap between peaches */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
     width: 80%;
     max-width: 800px;
     position: relative;
@@ -21,7 +21,10 @@ body {
 .peach {
     width: 100px;
     height: 100px;
-    background-color: #F7B5BA;
+    background-image: url('https://i.imgur.com/uxspnB3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 50%;
     transition: transform 0.3s ease;
     display: flex;
