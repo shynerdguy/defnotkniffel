@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #30362F;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 .circle {
     width: 100px;
     height: 100px;
-    background-color: purple;
+    background-color: #F7B5BA;
     border-radius: 50%;
     position: absolute;
     transition: transform 0.3s ease;
