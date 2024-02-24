@@ -9,9 +9,13 @@ body {
 }
 
 .container {
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    grid-template-rows: auto auto; /* 2 rows */
+    gap: 20px; /* Adjust the gap between peaches */
     width: 80%;
     max-width: 800px;
+    position: relative;
 }
 
 .peach {
@@ -19,7 +23,6 @@ body {
     height: 100px;
     background-color: #F7B5BA;
     border-radius: 50%;
-    position: relative;
     transition: transform 0.3s ease;
     display: flex;
     justify-content: center;
@@ -34,3 +37,9 @@ body {
 .peach-number {
     font-weight: bold;
 }
+
+.peach-1 { grid-column: 1; grid-row: 1; }
+.peach-2 { grid-column: 3; grid-row: 1; }
+.peach-3 { grid-column: 5; grid-row: 1; }
+.peach-4 { grid-column: 2; grid-row: 2; }
+.peach-5 { grid-column: 4; grid-row: 2; }
