@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}
+
+.circle-1 {
+    top: 50px;
+    left: 50px;
+}
+
+.circle-2 {
+    top: 20px;
+    left: 150px;
+}
+
+.circle-3 {
+    top: 100px;
+    left: 250px;
+}
+
+.circle-4 {
+    top: 170px;
+    left: 150px;
+}
+
+.circle-5 {
+    top: 250px;
+    left: 50px;
+}
