@@ -10,6 +10,8 @@ body {
 
 .container {
     position: relative;
+    width: 80%;
+    max-width: 800px;
 }
 
 .peach {
@@ -17,35 +19,18 @@ body {
     height: 100px;
     background-color: #F7B5BA;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
 }
 
 .peach:hover {
     transform: scale(1.1);
 }
 
-.peach-1 {
-    top: 50px;
-    left: 50px;
-}
-
-.peach-2 {
-    top: 20vh;
-    left: 70vw;
-}
-
-.peach-3 {
-    top: 60vh;
-    left: 30vw;
-}
-
-.peach-4 {
-    top: 80vh;
-    left: 10vw;
-}
-
-.peach-5 {
-    top: 40vh;
-    left: 90vw;
+.peach-number {
+    font-weight: bold;
 }
