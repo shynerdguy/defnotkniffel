@@ -6,6 +6,10 @@
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     max-width: 400px;
     margin: 20px auto;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .login-box h2 {
@@ -15,18 +19,12 @@
 }
 
 .form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #666666;
+    margin-bottom: 25px;
 }
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
+    width: calc(100% - 22px);
     padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 5px;
@@ -59,4 +57,50 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.register-link,
+.forgot-password-link {
+    color: #0056b3;
+}
+
+.register-link:hover,
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .login-box {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin-top: 50px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    p {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    .register-link,
+    .forgot-password-link {
+        font-size: 14px;
+    }
 }
