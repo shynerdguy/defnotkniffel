@@ -92,3 +92,15 @@ h1 {
 .refresh-text:hover {
     cursor: pointer;
 }
+
+.gyatzee-link {
+    margin: 0;
+    font-size: 24px;
+    color: #ff5931;
+    text-decoration: none;
+}
+
+.gyatzee-link:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
