@@ -2,24 +2,23 @@ header {
     background-color: #f9d5e5;
     padding: 10px 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
 }
 
-.refresh-text {
+.gyatzee-heading {
     margin: 0;
     font-size: 24px;
     color: #ff5931;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .login-container {
     display: flex;
     align-items: center;
-    padding-right: 20px;
 }
 
 .peach-icon {
@@ -38,6 +37,11 @@ header {
     text-decoration: underline;
 }
 
+.refresh-text {
+    cursor: pointer;
+}
+
+/* Main content */
 main {
     display: flex;
     justify-content: center;
@@ -56,8 +60,8 @@ main {
 
 .dice {
     width: 100px;
-    height: 100px;
-    background-image: url('images/peach.png');
+    height: 100px; 
+    background-image: url('https://i.imgur.com/uxspnB3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,7 +70,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 24px; 
 }
 
 .dice:hover {
@@ -78,6 +82,7 @@ main {
     font-weight: bold;
 }
 
+/* Scorecard */
 .scorecard {
     width: 300px;
     background-color: #ffffff;
@@ -86,11 +91,13 @@ main {
     padding: 20px;
 }
 
+/* Footer */
 footer {
     text-align: center;
     margin-top: 20px;
 }
 
+/* Breakpoint 1 */
 @media screen and (max-width: 767px) {
     header {
         flex-direction: column;
@@ -100,5 +107,40 @@ footer {
     .login-container {
         flex-direction: column;
         align-items: center;
+        padding: 10px 0;
+    }
+
+    .peach-icon {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .refresh-text {
+        margin-bottom: 10px;
+    }
+
+    main {
+        margin-top: 70px;
+    }
+
+    .dice-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dice {
+        margin: 10px 0;
+    }
+}
+
+/* Breakpoint 2 */
+@media screen and (max-width: 479px) {
+    .dice {
+        width: 60px;
+        height: 60px;
+    }
+
+    .peach-number {
+        font-size: 16px;
     }
 }
