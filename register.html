@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/register.css">
 </head>
 <body>
-    
+    <header>
+        <h1 class="gyatzee-heading"><a href="index.html" class="gyatzee-link">Gyatzee</a></h1>
+        <div class="login-container">
+            <img src="images/peach.png" alt="Peach Icon" class="peach-icon">
+            <a href="login.html" class="login-link">Log In</a>
+        </div>
+    </header>
+
+    <div class="login-box">
+        <h2>Register</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html" class="register-link">Log in</a></p>
+    </div>
+
 </body>
 </html>
