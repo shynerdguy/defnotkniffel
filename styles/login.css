@@ -69,8 +69,8 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Media query for small screens */
-@media screen and (max-width: 768px) {
+/* Breakpoint 1 */
+@media screen and (max-width: 767px) {
     .login-box {
         position: relative;
         top: auto;
@@ -102,5 +102,12 @@ a:hover {
     .register-link,
     .forgot-password-link {
         font-size: 14px;
+    }
+}
+
+/* Breakpoint 2 */
+@media screen and (max-width: 479px) {
+    .login-box {
+        max-width: 300px;
     }
 }

@@ -48,7 +48,7 @@ body {
 .peach-4 { grid-column: 2; grid-row: 2; }
 .peach-5 { grid-column: 4; grid-row: 2; }
 
-/* header styling */
+/* Header styling */
 header {
     background-color: #f9d5e5;
     padding: 10px 20px;
@@ -103,4 +103,18 @@ h1 {
 .gyatzee-link:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Breakpoint 1 */
+@media screen and (max-width: 767px) {
+    .container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+/* Breakpoint 2 */
+@media screen and (max-width: 479px) {
+    .container {
+        grid-template-columns: auto auto;
+    }
 }
