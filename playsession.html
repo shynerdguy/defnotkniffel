@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gyatzee</title>
+    <title>Gyatzee</title>
+    <link rel="stylesheet" href="styles/gyatzee.css">
 </head>
 <body>
-    <img src="images/5 dice.jpg" alt="image of 5 read dice showing 1, 2, 4, 5, 6" />
+    <header>
+        <h1 class="refresh-text"><a href="index.html" class="gyatzee-link">Gyatzee</a></h1>
+        <div class="login-container">
+            <img src="images/peach.png" alt="Peach Icon" class="peach-icon">
+            <a href="login.html" class="login-link">Log In</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="dice-container">
+            <div class="dice" onclick="rollDice()"><span class="peach-number">1</span></div>
+            <div class="dice" onclick="rollDice()"><span class="peach-number">2</span></div>
+            <div class="dice" onclick="rollDice()"><span class="peach-number">3</span></div>
+            <div class="dice" onclick="rollDice()"><span class="peach-number">4</span></div>
+            <div class="dice" onclick="rollDice()"><span class="peach-number">5</span></div>
+        </div>
+
+        <div class="scorecard">
+            <!-- Scorecard soon tm -->
+        </div>
+    </main>
+
+    <footer>
+        <!-- footer needed? -->
+    </footer>
+
+    <script src="scripts/gyatzee.js"></script>
 </body>
 </html>
