@@ -1,47 +1,3 @@
-header {
-    background-color: #f9d5e5;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
-.gyatzee-heading {
-    margin: 0;
-    font-size: 24px;
-    color: #ff5931;
-    text-decoration: none;
-}
-
-.login-container {
-    display: flex;
-    align-items: center;
-}
-
-.peach-icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-.login-link {
-    text-decoration: none;
-    color: #ff5931;
-    font-weight: bold;
-}
-
-.login-link:hover {
-    text-decoration: underline;
-}
-
-.refresh-text {
-    cursor: pointer;
-}
-
-/* Main content */
 main {
     display: flex;
     justify-content: center;
@@ -129,26 +85,6 @@ main {
 
 /* Breakpoint 1 */
 @media screen and (max-width: 767px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .login-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
-    }
-
-    .peach-icon {
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-    .refresh-text {
-        margin-bottom: 10px;
-    }
-
     main {
         margin-top: 70px;
     }
