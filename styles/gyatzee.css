@@ -91,10 +91,34 @@ main {
     padding: 20px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    margin-top: 20px;
+.score-section {
+    margin-bottom: 20px;
+}
+
+.score-row, .total-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.score {
+    font-weight: bold;
+}
+
+.total-row {
+    border-top: 2px solid #000;
+    margin-top: 10px;
+}
+
+.separator {
+    width: 2px;
+    background-color: #ccc;
+    margin: 0 10px;
 }
 
 /* Breakpoint 1 */
