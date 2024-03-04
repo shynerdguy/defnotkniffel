@@ -11,8 +11,7 @@ For responsive web design I'd have to go for a mobile first approach, and use gr
 
 Goals:
 1. **Build a static site with HTML and responsive CSS** (weeks 1 + 2)
-    - A landing page
-    - Other static pages like an “about” page or a “legal” page.
+    - done, but might want to rework media queries in the future to actually change the layout/styling
 2. **Create a web backend with dynamic routing** (weeks 2 + 3)
     - The barebone structure of a backend application with a framework
     - Definition of the various routes (URLs) needed for the application (and all its endpoints)
