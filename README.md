@@ -17,6 +17,7 @@ Goals:
     - Definition of the various routes (URLs) needed for the application (and all its endpoints)
     - Initial static (HTML- & CSS-only) pages with static fake data (as there is no integration with a database or backend yet)
     - Forms to input data that is not yet stored in the backend (e.g., contact form)
+    - by Mar 12th 16:59!: Hand-in your project containing a web backend with at least 3 different routes. At least one route should be dynamic, allowing users to access many different pages with different URLs handled by a single route function in the backend.
 3. **Store data in a database and render its content on pages dynamically** (weeks 4, 5, 6)
     - Schema and models for the various data sets of your application
     - Pages for all the different routes previously defined
